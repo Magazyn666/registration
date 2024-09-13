@@ -1,0 +1,7 @@
+age = int(input("Введите свой возраст"))
+if (age >= 25):
+    print ("Тебе сюда нельзя!")
+elif ( age > 18) and (age < 25 ):
+    print ("Можно,но позови маму!")
+else: 
+    print ("Go away!")
